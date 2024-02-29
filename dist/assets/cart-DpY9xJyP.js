@@ -1,0 +1,1 @@
+import{U as e}from"./index-BGBiAn3r.js";const o=()=>e.get("/api/shopcar/getShopCarList"),p=(r,a)=>e.get("/api/shopcar/deleteShopCar",{params:{...r},headers:{token:a}}),s=(r,a)=>e.post("/api/shopcar/addShopCar",r,{headers:{token:a}});export{s as a,p as d,o as g};
